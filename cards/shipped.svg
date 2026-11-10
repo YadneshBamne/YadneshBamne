@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" width="100%" height="100%">
+  <defs>
+    <radialGradient id="tileGlow_shipped" cx="85%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0f0d1a" stop-opacity="0" />
+    </radialGradient>
+    <style>
+      
+      @keyframes tileEntrance {
+        0% { opacity: 0; transform: translateY(18px) scale(0.97); }
+        100% { opacity: 1; transform: translateY(0) scale(1); }
+      }
+      @keyframes borderGlow {
+        0%, 100% { stroke: #261f3d; }
+        50% { stroke: #38bdf8; }
+      }
+      @keyframes pulseRing {
+        0% { r: 3; opacity: 1; }
+        100% { r: 12; opacity: 0; }
+      }
+      .tile-wrapper {
+        animation: tileEntrance 0.7s 0.44s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        opacity: 0;
+      }
+      .tile-frame {
+        animation: borderGlow 6s infinite ease-in-out;
+      }
+      .pulse-ring {
+        animation: pulseRing 2.5s infinite cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+    
+      * {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "JetBrains Mono", sans-serif;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; opacity: 1 !important; }
+      }
+    </style>
+  </defs>
+
+  <g class="tile-wrapper">
+    <!-- Tile Box -->
+    <rect width="280" height="200" rx="12" fill="#0f0d1a" class="tile-frame" stroke="#261f3d" stroke-width="1.2" />
+    <rect width="280" height="200" rx="12" fill="url(#tileGlow_shipped)" />
+
+    <!-- Corner Indicator -->
+    <g transform="translate(250, 26)">
+      <circle cx="0" cy="0" r="3.5" fill="#38bdf8" />
+      <circle cx="0" cy="0" r="3.5" fill="none" stroke="#38bdf8" stroke-width="1.5" class="pulse-ring" />
+    </g>
+
+    <!-- Tile Tag -->
+    <g transform="translate(24, 38)">
+      <text font-size="11.5" font-weight="800" fill="#38bdf8" letter-spacing="2">SHIPPED</text>
+    </g>
+
+    <!-- Main Metric / Heading -->
+    <g transform="translate(24, 76)">
+      <text font-size="22" font-weight="800" fill="#f5f3ff">99.9% Uptime</text>
+      <text y="24" font-size="13" font-weight="600" fill="#c084fc">SEO, Speed & Production</text>
+    </g>
+
+    <!-- Description -->
+    <g transform="translate(24, 132)">
+      <text font-size="11.5" font-weight="400" fill="#a7a1c4" width="232">
+        <tspan x="0" dy="0">Flawless Core Web Vitals, automated te</tspan>
+        <tspan x="0" dy="16">st suites, CI/CD & zero-downtime deplo</tspan>
+        <tspan x="0" dy="16">ys.</tspan>
+      </text>
+    </g>
+
+    <!-- Bottom Arrow -->
+    <g transform="translate(244, 178)">
+      <path d="M0 0 L5 5 L10 0" fill="none" stroke="#38bdf8" stroke-width="2" transform="rotate(-90 5 2.5)" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" width="100%" height="100%">
+  <defs>
+    <style>
+      * {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "JetBrains Mono", sans-serif;
+      }
+    </style>
+  </defs>
+
+  <rect width="880" height="180" rx="14" fill="#0f0d1a" stroke="#261f3d" stroke-width="1.2" />
+
+  <!-- Left Stats Block -->
+  <g transform="translate(42, 34)">
+    <text font-size="11" font-weight="800" fill="#c084fc" letter-spacing="1.5">ACTIVITY MATRIX</text>
+    <text y="32" font-size="28" font-weight="800" fill="#f5f3ff">1,400+ <tspan font-size="14" font-weight="500" fill="#6b6487">Commits / Year</tspan></text>
+    
+    <g transform="translate(0, 68)">
+      <g transform="translate(0, 0)">
+        <text font-size="11" font-weight="600" fill="#6b6487">DAILY STREAK</text>
+        <text y="20" font-size="18" font-weight="800" fill="#34d399">42 Days</text>
+      </g>
+      <g transform="translate(110, 0)">
+        <text font-size="11" font-weight="600" fill="#6b6487">BUSIEST DAY</text>
+        <text y="20" font-size="18" font-weight="800" fill="#a855f7">34 Commits</text>
+      </g>
+      <g transform="translate(225, 0)">
+        <text font-size="11" font-weight="600" fill="#6b6487">PRIMARY</text>
+        <text y="20" font-size="18" font-weight="800" fill="#38bdf8">TypeScript</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="335" y1="25" x2="335" y2="155" stroke="#261f3d" stroke-width="1" />
+
+  <!-- Right Chart: Monthly Distribution -->
+  <g transform="translate(330, 20)">
+    
+          <g transform="translate(32, 90)">
+            <rect width="26" height="20" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="45" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Jan</text>
+        
+
+          <g transform="translate(76, 79)">
+            <rect width="26" height="31" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="89" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Feb</text>
+        
+
+          <g transform="translate(120, 68)">
+            <rect width="26" height="42" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="133" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Mar</text>
+        
+
+          <g transform="translate(164, 84)">
+            <rect width="26" height="26" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="177" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Apr</text>
+        
+
+          <g transform="translate(208, 74)">
+            <rect width="26" height="36" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="221" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">May</text>
+        
+
+          <g transform="translate(252, 66)">
+            <rect width="26" height="44" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="265" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Jun</text>
+        
+
+          <g transform="translate(296, 55)">
+            <rect width="26" height="55" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="309" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Jul</text>
+        
+
+          <g transform="translate(340, 70)">
+            <rect width="26" height="40" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="353" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Aug</text>
+        
+
+          <g transform="translate(384, 44)">
+            <rect width="26" height="66" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="397" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Sep</text>
+        
+
+          <g transform="translate(428, 32)">
+            <rect width="26" height="78" rx="4" fill="#a855f7" stroke="#c084fc" stroke-width="1">
+              <animate attributeName='opacity' values='0.7; 1; 0.7' dur='3s' repeatCount='indefinite' />
+            </rect>
+            <text x="13" y="-8" font-size="10" font-weight="700" fill="#c084fc" text-anchor="middle">TOP</text>
+          </g>
+          <text x="441" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Oct</text>
+        
+
+          <g transform="translate(472, 53)">
+            <rect width="26" height="57" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="485" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Nov</text>
+        
+
+          <g transform="translate(516, 65)">
+            <rect width="26" height="45" rx="4" fill="#151324" stroke="#261f3d" stroke-width="1">
+              
+            </rect>
+            
+          </g>
+          <text x="529" y="130" font-size="10.5" font-weight="500" fill="#6b6487" text-anchor="middle">Dec</text>
+        
+  </g>
+</svg>
